@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./background-neflix.jpg);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.color{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    /* border:1px solid red; */
+    height:81.25px;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+img{
+    height:50px;
+    width: 150px;
+    /* margin-top:10px;
+    margin-left: 250px; */
+}
+.options{
+    height: 81.25px;
+    width: 1012.5px;
+    /* background-color: red; */
+}
+button{
+    margin-top:35px;
+    font-size: 16px;
+    text-align: center;
+    padding:8px 14px;
+    background-color: red;
+    float: right;
+    color:white;
+    border-radius: 5px;
+    border : none;
+    font-weight: bold;
+}
+#sign{
+    margin-right: 13px;;
+}
+#register{
+    margin-right: 30px;
+}
+.main{
+    height:80%;
+    width:1707.5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p,h1{
+    padding:0 80px 0 0;
+    /* margin-top: 10px; */
+    color:white;
+    /* text-align: center; */
+}
+h1{
+    font-size: 55px;
+    margin-top: 10px;
+    margin-left:-35px;
+}
+#p1{
+    font-size: 28px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+#p2{
+    font-size: 23px;
+}
